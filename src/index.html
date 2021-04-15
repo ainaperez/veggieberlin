@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset='UTF-8'>
+    <meta name='author' content='Aina Perez Serra'>
+    <meta name='description' content='Homepage Veggie Berlin'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Home Veggie Berlin</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,400;0,700;0,900;1,200;1,400;1,700;1,900&family=Nunito:ital,wght@0,200;0,400;0,900;1,200;1,400;1,900&display=swap" rel="stylesheet">
+
+    <script src="./index.js"></script>
+  </head>
+    
+  <body>
+  <div class='wrapper'>
+    <header>
+      <div>
+        <a href='index.html'><img id= 'VeggieBerlin_logo' src='../img/VeggieBerlin_logo.png' alt = 'logo veggie Berlin'></a>
+
+      </div>
+        <nav>
+            <ul id='ul-nav' class='nav_bar'>
+                <li><a href='index.html' class='active'>Home</a></li>
+                <li><a href='byCategory.html'>By Category</a></li>
+                <li><a href='byNeighbourhood.html'>By Neighbourhood</a></li>
+                <li><a href='aboutUs.html'>About</a></li>
+                <li><a href='links.html'>Links</a></li>  
+            </ul>
+            <div class='burger_icon' onClick= 'applyBurgerMenu();'>
+              <div class='line1'></div>
+              <div class='line2'></div>
+              <div class='line3'></div>
+          </div>
+        </nav>
+    </header>
+  </div>
+    <main>
+      <div id='homepage_hero'>
+        <div class='wrapper'>
+        <h1 id='hero_title'>Veggie<br>Berlin</h1>
+        <h2 id='hero_p'>Your guide for the best<br>vegan and veggie finds</h2>
+      </div>
+      </div>
+      <div class='wrapper'>
+
+      <h2 class='black_title'>A phone full of food pics,<br> and lockdown, <br>brought me here</h2>
+
+      <span class='span_center'>
+        <h2 class='title_pad'>Browse by Category</h2>
+        <div class='teaser_grid'>
+          <div class='card_teaser'>
+            <a href='#'><div class='crop'><img src='../img/food/Annelies.jpg' alt='Breakfast teaser'></div>
+            <h3>Cafe & Breakfast</h3></a>
+            <p>Come with me to discover the best places to stop for the best coffee and delicious bites. And of course the best brunch locations in the city</p>
+            <a class='readmore'>Read more</a>
+          </div>
+  
+          <div class='card_teaser'>
+            <a href='#'><div class='crop'><img src='../img/food/gazzo-pizza-neukölln.jpg' alt='italian teaser'></div>
+            <h3>Italian</h3></a>
+            <p>I am on a mission to discover the best pizza place in Berlin. On the way, why not enjoy more of the italian cuisine, with the best tratorias or on the go goodies.</p>
+            <a class='readmore'>Read more</a>
+          </div>
+  
+          <div class='card_teaser'>
+            <a href='#'><div class='crop'><img src='../img/food/pho_mitte.jpg' alt='Vietnamese teaser'></div>
+            <h3>Chinese</h3>
+            </h3></a>
+            <p>China is by far one of my favourite coountries to visit and where I ate some of the best meals. My goal is to find the best chinese restaurant that can take me back to those authentic flavours.</p>
+            <a class='readmore'>Read more</a>
+  
+          </div>
+        </div>
+        <a href="./byCategory.html" class='button'><button type='button' class='button_more'>More categories</button></a>
+      </span>
+
+      <span class='span_center'>
+      <h2 class='center title_pad'>Stories by Neighbourhood</h2>
+      <div class='teaser_grid'>
+        <div class='card_teaser'>
+          <a href='#'><div class='crop'><img src='../img/food/kreuzberg_lamaison.jpg' alt='kreuzberg teaser'></div>
+          <h3>Kreuzberg</h3></a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis erat metus, posuere nec ante rhoncus, tristique dictum neque. Nulla maximus sodales ante sed lacinia. Suspendisse rhoncus vehicula dui, id sagittis massa condimentum eu. Praesent a diam augue. Duis ut odio vitae nisi vulputate placerat.</p>
+          <a class='readmore'>Read more</a>
+        </div>
+
+        <div class='card_teaser'>
+          <a href='#'><div class='crop'><img src='../img/food/Hamy Cafe-Foodstore-noodles-neükolln.jpg' alt='Neukölln teaser'></div>
+          <h3>Neukölln</h3></a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis erat metus, posuere nec ante rhoncus, tristique dictum neque. Nulla maximus sodales ante sed lacinia. Suspendisse rhoncus vehicula dui, id sagittis massa condimentum eu. Praesent a diam augue. Duis ut odio vitae nisi vulputate placerat.</p>
+          <a class='readmore'>Read more</a>
+        </div>
+
+        <div class='card_teaser'>
+          <a href='#'><div class='crop'><img src='../img/food/Sironi_pizza.jpg' alt='Schöneberg teaser'></div>
+          <h3>Schöneberg</h3></a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis erat metus, posuere nec ante rhoncus, tristique dictum neque. Nulla maximus sodales ante sed lacinia. Suspendisse rhoncus vehicula dui, id sagittis massa condimentum eu. Praesent a diam augue. Duis ut odio vitae nisi vulputate placerat.</p>
+          <a class='readmore'>Read more</a>
+
+        </div>
+      </div>
+
+      <a href='./byNeighbourhood.html' class='button'><button type='button' class='button_more'>More neighbourhoods</button></a>
+      </span>
+
+    </div>
+
+    </main>
+    <footer>
+      <div class='left'>
+          <a href='#'>IMPRINT</a>
+          <a href='#'>Privacy Policy</a>
+          <p>copyright &#169; Aina Perez Serra</p>
+      </div>
+      <div class='center'>
+          <a href='index.html'><img id='logo_footer' src='../img/VeggieBerlin_horiz.png' alt='VeggieBerlin logo horizontal'></a>
+          <div>
+          <a href='#'><img class='social_icon' src='../img/fb_icon_black.png' alt='facebook icon'></a>
+          <a href='#'><img class='social_icon' src='../img/ig_icon_black.png' alt='instagram icon'></a>
+          <a href='#'><img class='social_icon' src='../img/pin_icon_black.png' alt='pinterest icon'></a>
+          </div>
+      </div>
+      <div class='center pad'>
+          <h4>Join our community!</h4>
+          <p>Get the latest news on Berlin’s Veggie Gastronomy.</p>
+          <form id='newsletter_form'>
+          <input id='input1' type='text' placeholder="Your Name" required>
+          <input id='input2' type='email' placeholder ='Your email' required>
+          <button id='send' type='submit'>Send!</button>
+          </form>
+      </div>
+      </footer>
+  
+</body>
+
+</html>

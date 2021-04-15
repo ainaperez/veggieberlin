@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset='UTF-8'>
+    <meta name='author' content='Aina Perez Serra'>
+    <meta name='description' content='Selections of posts by categories'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Browse by Category</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,400;0,700;0,900;1,200;1,400;1,700;1,900&family=Nunito:ital,wght@0,200;0,400;0,900;1,200;1,400;1,900&display=swap" rel="stylesheet">
+
+    <script src="./index.js"></script>
+  </head>
+    
+  <body>
+    <div class='wrapper'>
+    <header>
+      <div>
+        <a href='index.html'><img id= 'VeggieBerlin_logo' src='../img/VeggieBerlin_logo.png' alt = 'logo veggie Berlin'></a>
+
+      </div>
+        <nav>
+            <ul id='ul-nav' class='nav_bar'>
+                <li><a href='index.html' class='active'>Home</a></li>
+                <li><a href='byCategory.html'>By Category</a></li>
+                <li><a href='byNeighbourhood.html'>By Neighbourhood</a></li>
+                <li><a href='aboutUs.html'>About</a></li>
+                <li><a href='links.html'>Links</a></li>  
+            </ul>
+            <div class='burger_icon' onClick= 'applyBurgerMenu();'>
+              <div class='line1'></div>
+              <div class='line2'></div>
+              <div class='line3'></div>
+          </div>
+        </nav>
+    </header>
+
+    <main>
+
+      <h1 class='title_pad'>Links</h1>
+
+      <p>This page would include all copyright links.</p>
+
+      <p>The social media icons are from the Pro version of <a href='https://www.canva.com/'>www.canva.com</a></p>
+
+      <p>All content in this website, including photos and text is of my own.</p>
+
+      <p>I'm a Master student in <strong>Web and Web Application development</strong> at <strong>UOC (Universitat oberta de Catalunya)</strong>, currently living in Berlin</p>
+
+      <p>You can find more about me on:</p>
+
+      <div class='work_links'>
+        <img class='social_icon' src='../img/linkedin_icon_black.png' alt='linkedin icon'>
+        <a><p>Linkedin/ainaperez</p></a>
+      </div>
+
+      <p>Or find more of my projects on:</p>
+
+      <div class='work_links'>
+        <img class='social_icon' src='../img/Github_icon_black.png' alt='Github icon'>
+        <a><p>Github/ainaperez</p></a>
+      </div>
+
+      
+
+    </main>
+
+    <footer>
+        <div class='left'>
+            <a href='#'>IMPRINT</a><br>
+            <a href='#'>Privacy Policy</a>
+            <p>copyright &#169; Aina Perez Serra</p>
+        </div>
+        <div class='center'>
+            <a href='index.html'><img id='logo_footer' src='../img/VeggieBerlin_horiz.png' alt='VeggieBerlin logo horizontal'></a>
+            <div>
+            <a href='#'><img class='social_icon' src='../img/fb_icon_black.png' alt='facebook icon'></a>
+            <a href='#'><img class='social_icon' src='../img/ig_icon_black.png' alt='instagram icon'></a>
+            <a href='#'><img class='social_icon' src='../img/pin_icon_black.png' alt='pinterest icon'></a>
+            </div>
+        </div>
+        <div class='center pad'>
+            <h4>Join our community!</h4>
+            <p>Get the latest news on Berlin’s Veggie Gastronomy.</p>
+            <form id='newsletter_form'>
+            <input id='input1' type='text' placeholder="Your Name" required>
+            <input id='input2' type='email' placeholder ='Your email' required>
+            <button id='send' type='submit'>Send!</button>
+            </form>
+        </div>
+        </footer>
+    
+    </div>
+  </body>
+</html>
