@@ -1,6 +1,6 @@
 // burger menu
 
-function applyBurgerMenu() {
+window.applyBurgerMenu = function applyBurgerMenu() {
   const x = document.getElementById('ul-nav')
   if (x.className === 'nav_bar') {
     x.className += ' nav_active'
@@ -25,7 +25,7 @@ window.onload = function () {
   }
 }
 
-function filterSelection (c) {
+window.filterSelection = function filterSelection (c) {
   var x, i
   x = document.getElementsByClassName('content_filter')
   if (c === 'all') c = '';
