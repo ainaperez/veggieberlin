@@ -10,15 +10,18 @@
     <link rel="stylesheet" href="../src/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,400;0,700;0,900;1,200;1,400;1,700;1,900&family=Nunito:ital,wght@0,200;0,400;0,900;1,200;1,400;1,900&display=swap" rel="stylesheet">
-
-    <script src="../src/index.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="../src/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../src/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../src/favicon-16x16.png">
+    <link rel="manifest" href="../src/site.webmanifest">
+    
   </head>
     
   <body>
     <div class='wrapper'>
       <header>
         <div>
-          <a href='../src/index.html'><img id= 'VeggieBerlin_logo' src='../img/VeggieBerlin_logo.png' alt = 'logo veggie Berlin'></a>
+          <a href='../src/index.html'><img id= 'VeggieBerlin_logo' src='../img/vectorLogoVB.svg' alt = 'logo veggie Berlin'></a>
   
         </div>
           <nav>
@@ -44,28 +47,40 @@
     <div class='post_width'>
 
     <div class='intro_posts'>
+      <div>
       <ul>
         <li>Kreuzberg</li>
-        <li>Vegan</li>
+        <li>Breakfast</li>
       </ul>
-      <div>
       <p>Order online</p>
       <a href = 'https://www.brammibalsdonuts.com/'>www.brammibalsdonuts.com</a>
+      </div>
+      <div>
+        <img class='vegan_logo_post' src='../img/vegan_logo.svg' alt='Logo Vegan'>
+      </div>
     </div>
-    </div>
+
+    
 
       <p><em>24.03.2021</em></p>
 
       <p>Brammibal's Donuts is home to the <strong>best vegan donuts</strong> in Berlin. It's by far one of my favourite places for a sweet treat and a coffee. With several shops around the city and a continuous supply of new creations, it's impossible not to visit them several times in the month</p>
 
       <figure>
-      <img src='../img/food/brammibals_3donuts_kreuz.jpg' alt='brammibals 3 donuts' class='image_post'>
+      <img id='myImg' class='image_post' src='../img/food/brammibals_3donuts_kreuz.jpg' alt='brammibals 3 donuts'>
       <figcaption>August 2020 with the boston cream, the blackberry & matcha and the Strawberry cheescake</figcaption>
       </figure>
 
+      <div id="myModal" class='modal'>
+          <span class='close_modal'>&times;</span>
+          <!--<span class='left_arrow'>&#60;</span> TO BE USED IN THE FUTURE
+          <span class='right_arrow'>&#62;</span>-->
+          <img class='modal_content' id='img01'>
+      </div>
+
       <p>It began in 2015, when they started selling donuts in markets and finally opened their first shop in Maybachufer. Now you can find them in 5 more locations: Potsdamer platz, KaDeWe, Warschauer Str, Rosa-Luxemburg-Straße (near Alexanderplatz) or up in Prenzlauer Berg.</p>
       <figure>
-      <img src='../img/food/brammibals_chocweekend_closeup.jpg' alt= 'brammibals chocolate marshmallow weekend special' class='image_post'>
+      <img class='image_post' src='../img/food/brammibals_chocweekend_closeup.jpg' alt= 'brammibals chocolate marshmallow weekend special'>
       <figcaption>March 2021 weekend special</figcaption>
       </figure>
       <p>They offer a wide variety of permanent donuts but I love their <strong>monthly specilaities</strong>, which range from decadent and chocolaty creations in the winter months to more fruity and colourful mixes in the summer months. My favourite so far included the biscoff cream donut, the Bienenstich, or the past March's nougat & pistachio donut. And my all time choice, the <strong>peanut butter and jelly donut</strong>, which you can enjoy during all summer</p>
@@ -132,16 +147,24 @@
 
     <footer>
       <div class='left'>
-          <a href='#'>IMPRINT</a><br>
+        <div id='footer_menu'>
+          <a href='../src/index.html'>Home</a>
+          <a href='../src/byCategory.html'>By Category</a>
+          <a href='../src/byNeighbourhood.html'>By Neighbourhood</a>
+          <a href='../src/aboutUs.html'>About</a>
+          <a href='../src/links.html'>Links</a>
+          <br>
+        </div>
+          <a href='#'>IMPRINT</a>
           <a href='#'>Privacy Policy</a>
           <p>copyright &#169; Aina Perez Serra</p>
       </div>
       <div class='center'>
-          <a href='../src/index.html'><img id='logo_footer' src='../img/VeggieBerlin_horiz.png' alt='VeggieBerlin logo horizontal'></a>
+          <a href='../src/index.html'><img id='logo_footer' src='../img/VeggieBerlin_horiz.svg' alt='VeggieBerlin logo horizontal'></a>
           <div>
-          <a href='#'><img class='social_icon' src='../img/fb_icon_black.png' alt='facebook icon'></a>
-          <a href='#'><img class='social_icon' src='../img/ig_icon_black.png' alt='instagram icon'></a>
-          <a href='#'><img class='social_icon' src='../img/pin_icon_black.png' alt='pinterest icon'></a>
+          <a href='#'><img class='social_icon' src='../img/fb_icon_black.svg' alt='facebook icon'></a>
+          <a href='#'><img class='social_icon' src='../img/ig_icon_black.svg' alt='instagram icon'></a>
+          <a href='#'><img class='social_icon' src='../img/pin_icon_black.svg' alt='pinterest icon'></a>
           </div>
       </div>
       <div class='center pad'>
@@ -156,5 +179,6 @@
       </footer>
 
    </div>
+   <script src="../src/index.js"></script>
    </body>
    </html>

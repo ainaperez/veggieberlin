@@ -10,8 +10,12 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,400;0,700;0,900;1,200;1,400;1,700;1,900&family=Nunito:ital,wght@0,200;0,400;0,900;1,200;1,400;1,900&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
-    <script src="/index.js"></script>
+    <script src="index.js"></script>
   </head>
     
   <body>
@@ -19,9 +23,9 @@
 
     <header>
         <div>
-            <a href='index.html'><img id= 'VeggieBerlin_logo' src='../img/VeggieBerlin_logo.png' alt = 'logo veggie Berlin'></a>
+            <a href='index.html'><img id= 'VeggieBerlin_logo' src='../img/vectorLogoVB.svg' alt = 'logo veggie Berlin'></a>
     
-        </div>
+          </div>
             <nav>
                 <ul id='ul-nav' class='nav_bar'>
                     <li><a href='index.html' class='active'>Home</a></li>
@@ -31,10 +35,10 @@
                     <li><a href='links.html'>Links</a></li>  
                 </ul>
                 <div class='burger_icon' onClick= 'applyBurgerMenu();'>
-                <div class='line1'></div>
-                <div class='line2'></div>
-                <div class='line3'></div>
-            </div>
+                  <div class='line1'></div>
+                  <div class='line2'></div>
+                  <div class='line3'></div>
+              </div>
             </nav>
         </header>
 
@@ -95,27 +99,35 @@
         
     <footer>
         <div class='left'>
-            <a href='#'>IMPRINT</a><br>
-            <a href='#'>Privacy Policy</a>
-            <p>copyright &#169; Aina Perez Serra</p>
-        </div>
-        <div class='center'>
-            <a href='index.html'><img id='logo_footer' src='../img/VeggieBerlin_horiz.png' alt='VeggieBerlin logo horizontal'></a>
-            <div>
-            <a href='#'><img class='social_icon' src='../img/fb_icon_black.png' alt='facebook icon'></a>
-            <a href='#'><img class='social_icon' src='../img/ig_icon_black.png' alt='instagram icon'></a>
-            <a href='#'><img class='social_icon' src='../img/pin_icon_black.png' alt='pinterest icon'></a>
+            <div id='footer_menu'>
+              <a href='index.html'>Home</a>
+              <a href='byCategory.html'>By Category</a>
+              <a href='byNeighbourhood.html'>By Neighbourhood</a>
+              <a href='aboutUs.html'>About</a>
+              <a href='links.html'>Links</a>
+              <br>
             </div>
-        </div>
-        <div class='center pad'>
-            <h4>Join our community!</h4>
-            <p>Get the latest news on Berlin’s Veggie Gastronomy.</p>
-            <form id='newsletter_form'>
-            <input id='input1' type='text' placeholder="Your Name" required>
-            <input id='input2' type='email' placeholder ='Your email' required>
-            <button id='send' type='submit'>Send!</button>
-            </form>
-        </div>
+              <a href='#'>IMPRINT</a>
+              <a href='#'>Privacy Policy</a>
+              <p>copyright &#169; Aina Perez Serra</p>
+          </div>
+          <div class='center'>
+              <a href='index.html'><img id='logo_footer' src='../img/VeggieBerlin_horiz.svg' alt='VeggieBerlin logo horizontal'></a>
+              <div>
+              <a href='#'><img class='social_icon' src='../img/fb_icon_black.svg' alt='facebook icon'></a>
+              <a href='#'><img class='social_icon' src='../img/ig_icon_black.svg' alt='instagram icon'></a>
+              <a href='#'><img class='social_icon' src='../img/pin_icon_black.svg' alt='pinterest icon'></a>
+              </div>
+          </div>
+          <div class='center pad'>
+              <h4>Join our community!</h4>
+              <p>Get the latest news on Berlin’s Veggie Gastronomy.</p>
+              <form id='newsletter_form'>
+              <input id='input1' type='text' placeholder="Your Name" required>
+              <input id='input2' type='email' placeholder ='Your email' required>
+              <button id='send' type='submit'>Send!</button>
+              </form>
+          </div>
         </footer>
     </div>
     </body>
