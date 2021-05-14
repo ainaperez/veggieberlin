@@ -223,7 +223,7 @@ footer{
 
   #homepage_hero{
     height: 500px; 
-    background-image: url('../img/food/home_hero.jpg');
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url('../img/food/home_hero.jpg');
     background-size: cover;
     background-attachment: fixed;
     padding-top: 70px;
@@ -234,13 +234,13 @@ footer{
     font-weight: 800;
     color: var(--white); 
     text-transform: capitalize;
-    text-shadow: 2px 2px var(--black);
+    
   }
 
   #hero_p{
     text-transform: capitalize;
     color: var(--white); 
-    text-shadow: 2px 2px var(--black);
+    
   }
 
   .black_title{
@@ -784,7 +784,7 @@ figcaption{
   /*index.html*/
 
   #homepage_hero{
-    background-image: url('../img/food/home_hero_mobile.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url('../img/food/home_hero_mobile.jpg');
   }
 
   .teaser_grid{
