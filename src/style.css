@@ -51,7 +51,9 @@ a img:hover{
   opacity: 0.8;
  }
 
-
+.no_justify{
+  text-align:left;
+}
 
 /*Section Styles*/
 
@@ -232,11 +234,13 @@ footer{
     font-weight: 800;
     color: var(--white); 
     text-transform: capitalize;
+    text-shadow: 2px 2px var(--black);
   }
 
   #hero_p{
     text-transform: capitalize;
     color: var(--white); 
+    text-shadow: 2px 2px var(--black);
   }
 
   .black_title{
