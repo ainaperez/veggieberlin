@@ -15,7 +15,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 
-    <script src="index.js"></script>
+    <script defer src="index.js"></script>
   </head>
     
   <body>
@@ -27,11 +27,11 @@
       </div>
         <nav>
             <ul id='ul-nav' class='nav_bar'>
-                <li><a href='index.html' class='active'>Home</a></li>
+                <li><a href='index.html'>Home</a></li>
                 <li><a href='byCategory.html'>By Category</a></li>
                 <li><a href='byNeighbourhood.html'>By Neighbourhood</a></li>
                 <li><a href='aboutUs.html'>About</a></li>
-                <li><a href='links.html'>Links</a></li>  
+                <li><a href='links.html' class='active'>Links</a></li>  
             </ul>
             <div class='burger_icon' onClick= 'applyBurgerMenu();'>
               <div class='line1'></div>
@@ -88,9 +88,9 @@
       <div class='center'>
           <a href='index.html'><img id='logo_footer' src='../img/VeggieBerlin_horiz.svg' alt='VeggieBerlin logo horizontal'></a>
           <div>
-          <a href='#'><img class='social_icon' src='../img/fb_icon_black.svg' alt='facebook icon'></a>
-          <a href='#'><img class='social_icon' src='../img/ig_icon_black.svg' alt='instagram icon'></a>
-          <a href='#'><img class='social_icon' src='../img/pin_icon_black.svg' alt='pinterest icon'></a>
+          <a href='#'><img class='social_icon' loading='lazy' src='../img/fb_icon_black.svg' alt='facebook icon'></a>
+          <a href='#'><img class='social_icon' loading='lazy' src='../img/ig_icon_black.svg' alt='instagram icon'></a>
+          <a href='#'><img class='social_icon' loading='lazy' src='../img/pin_icon_black.svg' alt='pinterest icon'></a>
           </div>
       </div>
       <div class='center pad'>
