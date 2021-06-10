@@ -792,6 +792,10 @@ figcaption{
     grid-template-columns: 1fr;
   }
 
+  .crop img{
+    margin: 0 0 0 25.81px;
+  }
+
   /*byCategory.html*/
 
   #btnId{
