@@ -813,7 +813,12 @@ figcaption{
     width:10vh;
   }
 
+  .blog-teaser{
+    max-width: 580px;
+  }
+
   .blog_teaser_img img{
+    max-width: 580px;
     display: block;
     margin: auto;
   }
@@ -826,6 +831,12 @@ figcaption{
 
   .hoods_grid{
     grid-template-columns: 1fr;
+  }
+  
+  .card_teaser{
+    max-width: 580px;
+    margin: auto;
+
   }
 
   /*aboutUs.html*/
