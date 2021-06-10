@@ -793,7 +793,8 @@ figcaption{
   }
 
   .crop img{
-    margin: 0 0 0 25.81px;
+    display: block;
+    margin: auto;
   }
 
   /*byCategory.html*/
@@ -809,7 +810,12 @@ figcaption{
   }
 
   .vegan_icon{
-    width:15vh;
+    width:10vh;
+  }
+
+  .blog_teaser_img img{
+    display: block;
+    margin: auto;
   }
 
   .content_filter{
