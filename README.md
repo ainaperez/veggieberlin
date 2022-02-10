@@ -11,6 +11,8 @@ You can also contact me through my [Linkedin](https://www.linkedin.com/in/ainape
 
 ## Definition of the website
 
+You can find the doplyed website in [Netlify](https://veggieberlin.netlify.app/)
+
 The website is a blog dedicated to the best vegetarian or vegan restaurants and cafes in Berlin.
 
 The contents of the website, including text and images are of own creation, in order to avoid copyright infringements.
