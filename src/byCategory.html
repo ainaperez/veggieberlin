@@ -509,7 +509,10 @@
 
     <header>
         <div>
-            <a href='index.html'><img id= 'VeggieBerlin_logo' src='../img/vectorLogoVB.svg' alt = 'logo veggie Berlin'></a>
+            <a href='index.html'>
+              <img  id= 'VeggieBerlin_logo' 
+                    src='../img/vectorLogoVB.svg' 
+                    alt = 'logo veggie Berlin'></a>
     
           </div>
             <nav>
@@ -520,7 +523,7 @@
                     <li><a href='aboutUs.html'>About</a></li>
                     <li><a href='links.html'>Links</a></li>  
                 </ul>
-                <div class='burger_icon' onClick= 'applyBurgerMenu();'>
+                <div id='burger-menu' class='burger_icon'>
                   <div class='line1'></div>
                   <div class='line2'></div>
                   <div class='line3'></div>
@@ -541,7 +544,6 @@
             <button id='vietnamese' class="btn" >Vietnamese</button>
             <button id='chinese' class="btn" >Chinese</button>
         </div>
-
         
         <div class='category_layout'>
             <div class= 'content_filter cafe'>
@@ -576,21 +578,29 @@
                     <h3>La Maison - A french heaven in Kreuzberg</h3></a>
                 </div>
             </div>
-            <div class= 'content_filter vietnamese"'>
+            <div class= 'content_filter vietnamese'>
                 <div class='blog_teaser'>
-                    <a href='#'><div class='blog_teaser_img'><img loading='lazy' src="../img/food/pho_mitte.jpg" srcset='../img/food/pho_mitte_copy.jpg 1300w, ../img/food/pho_mitte.jpg 1500w' alt='Pho teaser'></div>
+                    <a href='#'>
+                      <div class='blog_teaser_img'>
+                        <img  loading='lazy' 
+                              src='../img/food/pho_mitte.jpg'
+                              srcset='../img/food/pho_mitte_copy.jpg 1300w, ../img/food/pho_mitte.jpg 1500w' 
+                              alt='Pho teaser'></div>
                     <p>Mitte</p>
                     <h3>Pho - Warm noodles for winter</h3></a>
                 </div>
             </div>
             <div class= 'content_filter japanese'>
                 <div class='blog_teaser'>
-                    <a href='#'><div class='blog_teaser_img'><img loading='lazy' src="../img/food/Hako-noodles-frederischshain.jpg" alt='Hako teaser'></div>
+                    <a href='#'>
+                      <div class='blog_teaser_img'>
+                        <img  loading='lazy' 
+                              src="../img/food/Hako-noodles-frederischshain.jpg" 
+                              alt='Hako teaser'></div>
                     <p>Frederischshain</p>
                     <h3>Hako - Best ramen in town</h3></a>
                 </div>
             </div>
-
             <div class= 'content_filter Italian'>
                 <div class='blog_teaser'>
                     <a href='#'><div class='blog_teaser_img'><img loading='lazy' src="../img/food/gazzo-pizza-neukolln.jpg" alt='Gazzo teaser'></div>
@@ -598,10 +608,14 @@
                     <h3>Gazzo - Local sourdough pizza in Neukölln</h3></a>
                 </div>
             </div>
-
-            <div class= 'content_filter Italian'>
+            <div class= 'content_filter cafe'>
                 <div class='blog_teaser'>
-                    <a href='#'><div class='blog_teaser_img'><img loading='lazy' src="../img/food/jones_schoneberg.jpg" srcset='../img/food/jones_schoneberg_copy.jpg 1300w, ../img/food/jones_schoneberg.jpg 1500w' alt='Jones teaser'></div>
+                    <a href='#'>
+                      <div class='blog_teaser_img'>
+                        <img  loading='lazy' 
+                              src="../img/food/jones_schoneberg.jpg" 
+                              srcset='../img/food/jones_schoneberg_copy.jpg 1300w, ../img/food/jones_schoneberg.jpg 1500w' 
+                              alt='Jones teaser'></div>
                     <p>Schöneberg</p>
                     <h3>Jone's Ice Cream - One of a kind ice creams and cookies </h3></a>
                 </div>
@@ -617,9 +631,6 @@
                     <h3>Hamy - Innexpensive delicious meals in Hasenheide</h3></a>
                 </div>
             </div>
-
-
-    
         </div>
     </main>
         
@@ -655,8 +666,6 @@
               </form>
           </div>
         </footer>
-
-    
     </div>
     <script defer src="index.js"></script>
     <script defer src="categoryfilters.js"></script>

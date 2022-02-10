@@ -1,12 +1,13 @@
 {
-  "name": "pac1",
+  "name": "veggie-berlin-blog",
   "version": "1.0.0",
-  "description": "",
+  "description": "Food blog about vegan and vegetarian spots in berlin",
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
     "lint": "enlint ./",
+    "stylelint": "stylelint src/**/*.scss --fix",
     "clean": "rimraf dist .cache .cache-loader"
   },
   "keywords": [],
@@ -25,5 +26,8 @@
     "parcel-plugin-imagemin": "^4.0.2",
     "rimraf": "^3.0.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "stylelint-config-recommended-scss": "^5.0.2",
+    "stylelint-order": "^5.0.0"
+  }
 }
