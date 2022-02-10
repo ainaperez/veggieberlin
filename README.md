@@ -34,7 +34,7 @@ You can also contact me through my [Linkedin](https://www.linkedin.com/in/ainape
 
 ## Definition of the website
 
-You can find the doplyed website in [Netlify](https://veggieberlin.netlify.app/)
+You can find the deployed website in [Netlify](https://veggieberlin.netlify.app/) https://veggieberlin.netlify.app/
 
 The website is a blog dedicated to the best vegetarian or vegan restaurants and cafes in Berlin.
 
