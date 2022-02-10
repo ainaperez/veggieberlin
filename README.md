@@ -7,6 +7,29 @@ Hi, I am Aina, a web developer specialized in the front-end. Welcome to my Githu
 As always don't forget yoou can check my [portfolio](https://ainaperez.com/).
 You can also contact me through my [Linkedin](https://www.linkedin.com/in/ainaperezserra/)
 
+# INDEX
+
+1. Introduction
+   1. Definition of website
+   2. Dependencies used
+   3. Scripts
+2. Detailing the HTML
+3. Detailing the CSS
+   1. General styles
+   2. Section Styles
+   3. Page Styles
+   4. Media query
+4. Detailing the Javascript
+5. Performance analysis and improvements
+   1. Initial diagnosis
+      1. Captures of PSI scores and proposals for improvement
+   2. First iteration report
+      1. Captures of PSI scores and proposals for improvement
+      2. Analysis of the performance improvements applied to your website
+   3. Second iteration report
+      1. Captures of PSI scores and proposals for improvement
+      2. Analysis of the performance improvements applied to your website
+
 # INTRODUCTION
 
 ## Definition of the website
