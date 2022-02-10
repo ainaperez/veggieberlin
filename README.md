@@ -674,8 +674,3 @@ The website has still a lot to improve but I am taking it as a long-term project
 
 As always don't forget yoou can check my [portfolio](https://ainaperez.com/).
 You can also contact me through my [Linkedin](https://www.linkedin.com/in/ainaperezserra/)
-
-<figure> 
-    <img src='./img/readmeImg/VB-image1.png'>
-    <figcaption></figcaption>
-</figure>
