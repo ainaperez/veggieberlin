@@ -4,7 +4,7 @@
 
 Hi, I am Aina, a web developer specialized in the front-end. Welcome to my Github and thank you for taking the time to read through the documentation!
 
-As always don't forget yoou can check my [portfolio](https://ainaperez.com/).
+As always don't forget you can check my [portfolio](https://ainaperez.com/).
 You can also contact me through my [Linkedin](https://www.linkedin.com/in/ainaperezserra/)
 
 # INDEX
@@ -697,5 +697,5 @@ If you have arrived until here, let me thank you for reading through all the doc
 
 The website has still a lot to improve but I am taking it as a long-term project where I can keep incorporating all new thing I learn.
 
-As always don't forget yoou can check my [portfolio](https://ainaperez.com/).
+As always don't forget you can check my [portfolio](https://ainaperez.com/).
 You can also contact me through my [Linkedin](https://www.linkedin.com/in/ainaperezserra/)
